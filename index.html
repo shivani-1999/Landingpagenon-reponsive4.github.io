@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        html,body
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            width: 100%;
+            height: 100vh;
+            /* border: 2px solid blue; */
+        }
+        .main1
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid violet; */
+            position: relative;
+        }
+        .image
+        {
+            width: 100%;
+            height: 100%;
+            background-image: url('beverage-computer-flower-948888.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .overlay
+        {
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            position: absolute;
+            background-color: rgba(1, 50, 67, 0.8);
+        }
+        .navigation
+        {
+            width: 100%;
+            height: 10%;
+            /* border: 2px solid black; */
+            display: flex;
+            position: absolute;
+            top: 0%;
+        }
+        .nav1
+        {
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid blue; */
+            font-size: 50px;
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+        }
+        sup
+        {
+            color: red;
+        }
+        .nav2
+        {
+            width: 80%;
+            height: 100%;
+            /* border: 2px solid teal; */
+            display: flex;
+            justify-content: flex-end; 
+        }
+        .nav21,.nav22,.nav23,.nav24,.nav25
+        {
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid purple; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a
+        {
+            text-decoration: none;
+            /* border: 2px solid green; */
+            width: 100%;
+            height: 80%;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        a:hover
+        {
+            background-color: rgba(0, 181, 204, 0.9);
+        }
+        .head
+        {
+            width: 70%;
+            height: 60%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            /* border: 2px solid black; */
+            position: absolute;
+        }
+        .head1
+        {
+            width: 100%;
+            height: 25%;
+            /* border: 2px solid yellow; */
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+        .head2
+        {
+            width: 100%;
+            height: 15%;
+            /* border: 2px solid indigo; */
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        .head3
+        {
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid burlywood; */
+            color: white;
+            text-align: center;
+        }
+        .head4
+        {
+            width: 100%;
+            height: 30%;
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button
+        {
+            width: 30%;
+            height: 60%;
+            font-size: 20px;
+            color: white;
+            background-color: rgba(0, 181, 204, 0.9);
+            border: none;
+        }
+        button:hover
+        {
+           background-color: rgba(1, 50, 67, 1); 
+        }
+        .main2
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+        .block1
+        {
+            width: 40%;
+            height: 100%;
+            /* border: 2px solid green; */
+            padding: 3%;
+        }
+        .block11
+        {
+            font-size: 30px;
+        }
+        .block2
+        {
+            width: 60%;
+            height: 100%;
+            /* border: 2px solid yellow; */
+        }
+        .ano1
+        {
+            width: 100%;
+            height: 50%;
+            display: flex;
+        }
+        .ano2
+        {
+            width: 100%;
+            height: 50%;
+            display: flex;
+        }
+        .block21,.block22
+        {
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid purple; */
+            padding: 3%;
+        }
+        .block23,.block24
+        {
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid purple; */
+            padding: 3%;
+        }
+        .img1
+        {
+            font-size: 50px;
+            color: rgb(0, 181, 204);
+        }
+        .img2
+        {
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid olive; */
+            padding-top: 3%; 
+        }
+        hr
+        {
+            background-color: yellowgreen;
+            height: 1%;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="image"></div>
+            <div class="overlay"></div>
+            <div class="navigation">
+                    <div class="nav1">MediLab<sup><b>+</b></sup></div>
+                    <div class="nav2">
+                            <div class="nav21"><a href="#">HOME</a></div>
+                            <div class="nav22"><a href="#">SERVICES</a></div>
+                            <div class="nav23"><a href="#">ABOUT</a></div>
+                            <div class="nav24"><a href="#">TESTIMORIAL</a></div>
+                            <div class="nav25"><a href="#">CONTACT</a></div>
+                    </div>
+            </div>
+            <div class="head">
+                    <div class="head1">MediLab<sup><b>+</b></sup></div>
+                    <div class="head2"><b>HEALTH CARE AT YOUR DESK!!</b></div>
+                    <div class="head3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero quia ut similique, modi nobis corporis<br> velit eos necessitatibus quaerat error nisi esse, placeat accusamus voluptatibus laboriosam ratione suscipit illum.</div>
+                    <div class="head4"><button>Make an Appointment</button></div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="block1">
+                <div class="block11"><b>OUR SERVICES</b></div>
+                <hr>
+                <div class="block12"><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum dicta deserunt consequuntur, et ratione delectus facere asperiores a officiis saepe illo similique exercitationem accusamus at. Voluptatum, aspernatur iste quae harum distinctio reiciendis quidem nostrum assumenda maiores libero perspiciatis provident eveniet alias neque facere eos deleniti quisquam fuga quas! A ipsum blanditiis omnis perferendis, sapiente facere esse repellendus consectetur aperiam similique quam quos, inventore voluptate, nulla rem libero magnam! Voluptatem, necessitatibus tenetur deserunt sequi atque nostrum sunt eum a mollitia incidunt! Esse ratione aliquid minus autem dicta maxime, fuga animi voluptate, delectus rem aut voluptatum. Consectetur quae dolorem rem non minima?</div>
+            </div>
+            <div class="block2">
+               <div class="ano1">
+                    <div class="block21">
+                        <div class="img1"><i class="fas fa-clinic-medical"></i></div>
+                        <div class="img2"><b>24 Hour Support</b></div>
+                        <div class="img3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero molestiae error fugiat itaque nihil. Eveniet accusamus corrupti autem possimus.</div>
+
+                    </div>
+                    <div class="block22">
+                        <div class="img1"><i class="fas fa-user-md"></i></div>
+                        <div class="img2"><b>Medical Couselling</b></div>
+                        <div class="img3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, quibusdam eveniet. Sequi blanditiis molestiae nobis rem delectus tempore laudantium omnis.</div>
+                    </div> 
+               </div>
+                <div class="ano2">
+                    <div class="block23">
+                        <div class="img1"><i class="fas fa-plus"></i></div>
+                        <div class="img2"><b>Emergency Services</b></div>
+                        <div class="img3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit voluptatem repellendus quasi exercitationem quibusdam beatae, culpa accusantium voluptas non.</div>
+                    </div>
+                    <div class="block24">
+                        <div class="img1"><i class="fas fa-prescription-bottle-alt"></i></div>
+                        <div class="img2"><b>Premium Healthcare</b></div>
+                        <div class="img3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat neque repudiandae eveniet inventore aliquid beatae, itaque ad nemo! Tenetur.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
